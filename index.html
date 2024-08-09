@@ -49,44 +49,32 @@ go through css and combine display flex row
 
     <nav>
         <div class="container">
-            <a href="index.html"><img id="logo" src="assets/nav_logo.png" width="60px" height="60px" alt="logo"></a>
             <div class="nav-links">
                 <div class="wrapper">
                     <ul>
-                        <li><a href="#home" class="active">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                        <button class="btn"><a href="#footer">Contact Me</a></button>
+                        <h2>CINE</h2>
+                        <li><a href="#home" class="active">HOME</a></li>
+                        <li><a href="portfolio.html">WORK</a></li>
+                        <li><a href="#about">ABOUT & CONTACT</a></li>
                     </ul>
                 </div>
             </div>
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-
+            <div class="icons">
+                <i class="fa-brands fa-youtube"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-facebook-f"></i>
+                <!-- <i class="fa-brands fa-facebook"></i> -->
             </div>
         </div>
     </nav>
 
     <div class="section-landing">
-        <div class="preloader"> 
-            <!-- <div class="percent" id="percent">1%</div> -->
-        </div>
         <iframe class="background-content landing-video"
             src="https://player.vimeo.com/video/935669469?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&background=1#t=6s"
             frameborder="0" title="FPV"></iframe>
         <!-- <iframe src="https://player.vimeo.com/video/389353282?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479&background=1" frameborder="0" title="FPV"></iframe> -->
         <!-- <img src="https://assets-global.website-files.com/6596aca1a31aa73c7b252db2/659d4d18eb689f5014c1a70d_hero.jpg" alt=""> -->
         <!-- <iframe src="//player.vimeo.com/video/795272655?autoplay=1&amp;badge=0&amp;byline=0&amp;autopause=0&amp;loop=1&amp;title=0&amp;muted=1#t=10s" frameborder="0"></iframe> -->
-        <div class="hero">
-            <p class="paragraph">Graphic designer and filmmaker</p>
-            <p class="paragraph">with a passion for automotive media,</p>
-            <p class="paragraph">FPV Drones, web development,</p>
-            <p class="paragraph">and 3D modeling. Recently Awarded a</p>
-            <p class="paragraph">graphic design scholarship, eager to</p>
-            <p class="paragraph">bring creativity to every project.</p>
-        </div>
         <div class="container content">
             <div class="hero-flex row-between">
                 <div>
@@ -108,6 +96,108 @@ go through css and combine display flex row
         </div>
     </div>
     <div class="container">
+        <section>
+            <div class="flex center">
+                <h3>Cinemagnet is a dynamic<br>
+                    studio specializing in automotive<br>
+                    videography and 3D modeling.<br>
+                    <a href="">Interested in collaborating?</a></h3>
+            </div>
+        </section>
+        <section class="gallery">
+            <div class="row">
+                <h4>FEATURED WORK</h2>
+                <h4><i class="fa-solid fa-sort-down"></i> SORT</h4>
+                <select id="sort-select">
+                    <option value="both">Both</option>
+                    <option value="3d">3D First</option>
+                    <option value="film">Film First</option>
+                  </select>
+            </div>
+                <hr>
+            <ul id="gallery">
+                <li class="full-width" data-category="3d"><a href="assets/3d/0109.png">
+                    <figure>
+                        <img src="assets/3d/0109.png" alt="">
+                    </figure>
+                </a></li>
+                <li class="half-width" data-category="3d"><a href="3d/s13.html">
+                    <figure>
+                        <img src="assets/3d/s13_thumb_2.png" alt="">
+                    </figure>
+                </a></li>
+                <li class="half-width" data-category="film"><a href="assets/3d/r32_thumb.png">
+                    <figure>
+                        <img src="assets/3d/r32_thumb.png" alt="">
+                    </figure>
+                </a></li>
+                <li class="half-width" data-category="3d"><a href="assets/3d/group_b_thumb.png">
+                    <figure>
+                        <img src="assets/3d/group_b_thumb.png" alt="">
+                    </figure>
+                </a></li>
+                <li class="half-width" data-category="3d"><a href="assets/3d/REDRUM_THUMB_002.jpg">
+                    <h2>GROUP B</h2>
+                        <h1 class="paragraph">This render was inspired by the group b rally cars, you can see the aero work Ive designes to make this look as realistic as possibl.e I always make sure to put heaps of passion and efford into each project</h2>
+                </a></li>
+                <li class="half-width" data-category="3d"><a href="assets/3d/THE_DREAM_THUMB_002.jpg">
+                    <figure>
+                        <img src="assets/3d/THE_DREAM_THUMB_002.jpg" alt="">
+                    </figure>
+                </a></li>
+                <li class="half-width" data-category="3d"><a href="assets/3d/headlights_close_0192.png">
+                    <figure>
+                        <img src="assets/3d/headlights_close_0192.png" alt="">
+                    </figure>
+                </a></li>
+                <li class="half-width" data-category="3d"><a href="assets/3d/back.png">
+                    <figure>
+                        <img src="assets/3d/back.png" alt="">
+                    </figure>
+                </a></li>
+                <li class="half-width" data-category="3d"><a href="assets/3d/0004.png0170.png">
+                    <figure>
+                        <img src="assets/3d/0004.png0170.png" alt="">
+                    </figure>
+                </a></li>
+                <li class="half-width" data-category="3d"><a href="assets/car/design_2.png">
+                    <figure>
+                        <p>THE LEGACY - M.H.C. 024
+
+                            The Datsun 240Z holds a cherished place in our hearts. It was the first hotrod I was introduced to growing up, and the memories of barely being able to see above the door line and experiencing the scent of the glorious 6-cylinder gas eating engine as it gracefully maneuvered through corners still remain vivid. The original design's incredible shape language and line ratios make it one of the most beautiful designs of its era, which inspired us to embark on a journey to evolve its design while keeping its essence intact.
+                            
+                            Our vision was to imagine what the original designers would do if they had access to today's advanced tools and technology. Thus, THE LEGACY build began with clear intentions and discussions, exploring the car's purpose, intended users, and main intentions. Working with Tim from Industry Garage, we were given an open brief and creative freedom to bring our best to the project.
+                            
+                            -MHC</p>
+                    </figure>
+                </a></li>
+                <li class="full-width"><a href="assets/car/design_6.png">
+                    <figure>
+                        <img src="assets/car/design_6.png" alt="">
+                    </figure>
+                </a></li>
+                <li><a href="assets/car/car_4.png">
+                    <figure>
+                        <img src="assets/car/car_4.png" alt="">
+                    </figure>
+                </a></li>
+                <li><a href="assets/car/car_5.png">
+                    <figure>
+                        <img src="assets/car/car_5.png" alt="">
+                    </figure>
+                </a></li>
+                <li><a href="assets/car/screenshot_1.png">
+                    <figure>
+                        <img src="assets/car/screenshot_1.png" alt="">
+                    </figure>
+                </a></li>
+                <li><a href="assets/car/screenshot_2.png">
+                    <figure>
+                        <img src="assets/car/screenshot_2.png" alt="">
+                    </figure>
+                </a></li>
+            </ul>
+        </section>
         <section class="section" id="about">
             <div class="center">
                 <img class="center" src="assets/logo5.png" width="256px" height="256px" alt="logo">
@@ -138,7 +228,7 @@ go through css and combine display flex row
             </div>
         </section>
 
-        <section id="projects">
+        <!-- <section id="projects">
             <div class="img-container">
                 <a href="model.html">
                     <div class="mask">
@@ -243,7 +333,7 @@ go through css and combine display flex row
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
     </div>
     <footer class="footer" id="footer">
         <div class="container">
@@ -310,6 +400,7 @@ go through css and combine display flex row
     <script src="https://player.vimeo.com/api/player.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
-    <script src="javascript/index.js"></script>
+    <script src="https://kit.fontawesome.com/9e1bafaf6c.js" crossorigin="anonymous"></script>
+    <script src="javascript/app.js"></script>
 </body>
 </html>
